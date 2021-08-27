@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <style>
+        img {
+            height: 113px;
+            margin: 110px 0 0 0;
+        }
+
+        section {
+            /* background-color: rgb(194, 136, 136); */
+            text-align: center;
+            margin:0 70px;
+        }
+
+        footer {
+            text-align: center;
+        }
+        #search{
+            width: 350px;
+        }
+        .aciklama{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .first{
+            background-color: #eeeeee;
+            margin-bottom: 3px;
+        }
+        #left, #middle, #right{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            height: 70px;
+        }
+        #left{
+            width: 36%;
+            background-color: #7ee5da;
+            float: left;
+            margin-right: 5px;
+        }
+        #middle{
+            width: 13%;
+            background-color: #70ccc2;
+            float: left;
+            margin-right: 2px;
+            font-size: 13px;
+        }
+        #right{
+            width: 50%;
+            background-color: #62b3aa;
+            float: right;
+            font-size: 13px;
+        }
+        a, span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .email{
+            width: 150px;
+        }
+        .btn{
+            display: flex;
+            padding-left: 40%;
+        }
+        .btn> button{
+            margin-right: 8px;
+        }
+        .footer{
+            height: 40px;
+        }
+        .footer p{
+            margin-top: 85px;
+            padding-top: 13px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img src="images/google.jpg" alt="">
+        <div class="first">
+            <p class="aciklama">Search the web using Google!</p>
+            <input id="search" type="text" >
+            <div>
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+            </div>
+        </div>
+        <div class="cols">
+            <div id="left">
+                <span>Special Search</span>
+                <a href="">Stanford Search</a>
+                <a href="">Linux Search</a>
+            </div>
+            <div id="middle">
+                <a href="">Help!</a>
+                <a href="">About Google!</a>
+                <a href="">Company Info</a>
+                <a href="">Google! Logos</a>
+            </div>
+            <div id="right">
+                Get Google! <br>
+                updates monthly <br>
+                <input class="email" type="text" placeholder="your e-mail">
+                <div class="btn">
+                    <button>Subscribe</button> 
+                    <a href="">Archive</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p >Copyright © 1998 Google Inc.</p>
+    </section>
+</body>
+
+</html>
